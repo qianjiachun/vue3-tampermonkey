@@ -1,6 +1,6 @@
-import {initPkg_TestA} from "./TestA"
+import TestA from "./TestA"
 function initPkg() {
-    initPkg_TestA();
+    TestA.init();
 }
 
 export {
