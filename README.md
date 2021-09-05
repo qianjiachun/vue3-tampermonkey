@@ -21,3 +21,8 @@
 2. 在/dist/目录下找到main.js
 3. 在main.js的内容前拼上油猴脚本的配置信息即可发布
 
+
+### 建议
+1. 使用script setup标签编写
+2. style lang="scss"
+3. 按域划分pages目录，按功能划分packages目录，注意程序解耦而不是业务解耦
