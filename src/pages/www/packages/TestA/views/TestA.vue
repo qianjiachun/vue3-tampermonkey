@@ -1,5 +1,5 @@
 <template>
-	<p class="style1">view1内容</p>
+	<p class="style1"><span class="style2">view</span>内容</p>
     <button @click="add">Clicked芜湖 {{ count }} times.</button>
 </template>
 

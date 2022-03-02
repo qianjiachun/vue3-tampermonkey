@@ -1,25 +1,19 @@
 ## vue3 + tampermoneky开发框架
+> 基于vue3 + webpack的tampermonkey开发脚手架
+
+**这里更加推荐[基于Svelte + Vite的脚手架](https://github.com/qianjiachun/svelte-tampermonkey)**，这将是tampermonkey开发的最佳方案
 
 ### 起步 & 开发热更新
-1. `npm run start`
-2. 在tampermonkey面板中新建一个脚本，填入自己的项目地址，保存
-```
-"use strict";
-// ==UserScript==
-// @name         test
-// @namespace    https://github.com/qianjiachun
-// @version      2020.08.09.01
-// @author       小淳
-// @match			*://www.baidu.com/*
-// @require      file://<你的项目地址>\dist\main.js
-// ==/UserScript==
-```
-3. 访问百度，可在右上角看到效果
+1. `npm install`
+2. `npm run dev`
+3. 在tampermonkey面板中新建一个脚本，将`./dist/main.user.dev.js`的内容复制进去保存
+4. 访问[百度](https://www.baidu.com)，可在右上角看到效果
+- 修改代码后，会进行热更新，你只需要刷新页面即可
 
 ### 编译
-1. `npm run build`
-2. 在/dist/目录下找到main.js
-3. 在main.js的内容前拼上油猴脚本的配置信息即可发布
+1. 修改`./src/header.js`
+2. `npm run build`
+3. 将`./dist/main.user.js`的内容发布即可
 
 
 ### 建议
