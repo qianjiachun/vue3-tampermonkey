@@ -1,8 +1,9 @@
 ## vue3 + tampermoneky开发框架
 > 基于vue3 + webpack的tampermonkey开发脚手架
+**推荐一下[基于Svelte + Vite的脚手架](https://github.com/qianjiachun/svelte-tampermonkey)**，这将是tampermonkey开发的最佳方案
 
-**这里更加推荐[基于Svelte + Vite的脚手架](https://github.com/qianjiachun/svelte-tampermonkey)**，这将是tampermonkey开发的最佳方案
-
+### Vite版本
+如果你在找Vite版本的脚手架，[请看这里](https://github.com/qianjiachun/vue3-tampermonkey-vite)
 ### 起步 & 开发热更新
 1. `npm install`
 2. `npm run dev`
